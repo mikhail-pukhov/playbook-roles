@@ -1,0 +1,13 @@
+---
+  elasticsearch:
+    hosts:
+      localhost:
+        ansible_connection: ssh
+        ansible_user: root
+  kibana:
+    hosts:
+      ubuntu1:
+        ansible_connection: ssh
+        ansible_user: root
+
+         
